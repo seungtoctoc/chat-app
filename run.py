@@ -8,6 +8,7 @@ from starlette.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 import os
 
+
 load_dotenv()  # Load .env variables
 
 if os.environ.get("ENV_STATE") == "prod":
